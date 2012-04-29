@@ -97,8 +97,8 @@ PRODUCT_COPY_FILES += \\
 ##AUDIO
 PRODUCT_COPY_FILES += \\
     vendor/__VENDOR__/__DEVICE__/proprietary/lib/libaudio.so:system/lib/libaudio.so \\
-    vendor/__VENDOR__/__DEVICE__/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \\
-    vendor/__VENDOR__/__DEVICE__/proprietary/lib/hw/alsa.omap3.so:system/lib/hw/alsa.omap3.so
+    vendor/__VENDOR__/__DEVICE__/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so
+    #vendor/__VENDOR__/__DEVICE__/proprietary/lib/hw/alsa.omap3.so:system/lib/hw/alsa.omap3.so
     
 ## GPS
 PRODUCT_COPY_FILES += \\
