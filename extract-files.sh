@@ -36,6 +36,8 @@ adb pull /system/lib/hw/sensors.omap3.so ../../../vendor/$VENDOR/$DEVICE/proprie
 
 # AUDIO
 adb pull /system/lib/hw/alsa.omap3.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/hw
+adb pull /system/lib/libaudio.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/libaudio.so \\
+adb pull /system/lib/libaudiopolicy ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/libaudiopolicy.so
 
 ## PVRSGX
 adb pull /system/lib/egl/libEGL_POWERVR_SGX530_125.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib/egl
